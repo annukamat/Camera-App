@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.video-container {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+#record-video-btn {
+    position: fixed;
+    right: 6rem;
+    top: 36vh;
+}
+
+#click-picture-btn {
+    position: fixed;
+    right: 6rem;
+    top: 50vh;
+}
+
+video {
+    height: 100%;
+}
+
