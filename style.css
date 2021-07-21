@@ -30,3 +30,25 @@ video {
     height: 100%;
 }
 
+.filter-container {
+    border: 1px solid #fff;
+    position: fixed;
+    height: 60vh;
+    width: 6vw;
+    top: 20vh;
+    left: 5vw;
+}
+.filter {
+    border: 1px solid #fff;
+    height: 20%;
+}
+.filter-screen-parent{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    /* background-color: rgba(146, 78, 83, 0.5); */
+}
+
